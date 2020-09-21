@@ -5,7 +5,6 @@ import PropTypes from "prop-types";
  * Tooltip component
  */
 export const Tooltip = ({ className, children, open, ...props }) => {
-  // const active = open ? "tooltip--open" : "tooltip--closed";
   return (
     <div
       className={["tooltip", className].join(" ")}
